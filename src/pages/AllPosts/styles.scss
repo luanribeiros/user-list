@@ -1,0 +1,47 @@
+span {
+  font-weight: bold;
+}
+.bg-allposts {
+  display: flex;
+  flex-direction: column;
+
+  &_desc {
+    padding-left: 1rem;
+  }
+
+  &_posts {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+$colorCard: #d1d1d1;
+
+.bg-post {
+  width: 95%;
+  padding: 1.3rem;
+  margin: 0 15px 30px 10px;
+  border-radius: 5px;
+  border: 1px solid $colorCard;
+  box-shadow: 1px 2px 5px $colorCard;
+  h3,
+  p {
+    padding: 0.5rem 0;
+  }
+  .bg-buttom {
+    margin-top: 20px;
+    button {
+      background: #0d2c31;
+      color: white;
+      border: none;
+      font-size: 0.8rem;
+      padding: 0.5rem;
+      transition: 0.2s linear;
+      cursor: pointer;
+      &:hover {
+        background: #00adee;
+      }
+    }
+  }
+}

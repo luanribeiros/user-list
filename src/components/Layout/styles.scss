@@ -1,0 +1,44 @@
+$white: white;
+$line-bottom-title: #ededed;
+
+.bg {
+  background: #0d2c31;
+  width: 100%;
+  min-height: 100%;
+  &-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    a {
+      text-decoration: none;
+      h1 {
+        padding: 1rem 2rem 1rem 0;
+        color: $white;
+        font-weight: bold;
+        font-size: 2rem;
+      }
+    }
+    ul {
+      a {
+        text-decoration: none;
+        color: $white;
+        font-weight: bold;
+        li {
+          background: #0d2c31;
+          transition: 0.2s linear;
+          padding: 1.5rem;
+          &:hover {
+            background: #00adee;
+          }
+        }
+      }
+    }
+  }
+}
+
+.bg-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  //border: 1px solid $line-bottom-title;
+}
